@@ -12,8 +12,8 @@ Npm.depends({
 Package.onUse(function(api) {
   api.versionsFrom('METEOR@1.0');
 
-  api.use('jagi:streams');
-  api.use('jagi:graphics-magick');
+  api.use('jagi:streams@0.1.0');
+  api.use('jagi:graphics-magick@1.0.0');
 
   api.addFiles('lib/server/canvas.js', 'server');
   api.addFiles('lib/server/canvas-copy.js', 'server');
